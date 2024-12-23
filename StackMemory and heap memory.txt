@@ -1,0 +1,17 @@
+ram loo two types of memory one is stack memory and another one is heap memory
+
+in stack memory it stores the functions and all the local variables 
+
+i heap memory it stores all the objects and all the instanse variables
+
+
+Local variables are declared in methods, constructors, and blocks and are accessible only in those scopes. Instance variables, also known as volatile fields, are declared within the class but outside of each method and unique to each instance of the class.
+
+
+
+-- instance variable stored in object and object are in heap therefore we can say that instance variable created in heap.
+-- method declaration and definition is present in object but actual implementation present in stack frame of stack.
+-- local variable created in stack during call of method.
+-- stack frame of called method is present in stack area.
+-- st is reference variable created inside the current stack frame and it is reference variable store address of student object created in heap area.
+-- new Student() create object in heap area and pointed by his reference variable.
